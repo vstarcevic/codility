@@ -6,7 +6,9 @@ namespace Solutions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Codility solution to tests.");
+             
+            Console.ReadKey();
         }
     }
 }
