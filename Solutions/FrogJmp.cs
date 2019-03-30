@@ -1,6 +1,4 @@
-﻿ 
-
-namespace Solutions
+﻿namespace Solutions
 {
     public class FrogJmp
     {

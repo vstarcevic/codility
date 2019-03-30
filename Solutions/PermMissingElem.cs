@@ -2,7 +2,6 @@
 {
     public class PermMissingElem
     {
-
         public int solution(int[] A)
         {
             if (A.Length == 0) return 1;

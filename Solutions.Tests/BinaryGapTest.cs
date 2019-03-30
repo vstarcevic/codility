@@ -5,7 +5,7 @@ namespace Solutions.Tests
     [TestClass]
     public class BinaryGapTests
     {
-        BinaryGap bg;
+        private BinaryGap bg;
         public BinaryGapTests()
         {
             bg = new BinaryGap();

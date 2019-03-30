@@ -6,7 +6,7 @@ namespace Solutions.Tests
     public class CyclicRotationTests
     {
         [TestMethod]
-        public void CyclicRotationTest()
+        public void CyclicRotationTest_01()
         {
             CyclicRotation cr = new CyclicRotation();
             int[] array = new int[] { 2, 3, 1, 5 };

@@ -6,7 +6,7 @@ namespace Solutions.Tests
     public class OddOccurencessInArrayTest
     {
         [TestMethod]
-        public void OddOccurencesInArrayTest()
+        public void OddOccurencesInArrayTest_01()
         {
             OddOccurrencesInArray or = new OddOccurrencesInArray();
 

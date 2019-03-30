@@ -1,14 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Solutions.Tests
 {
     [TestClass]
     public class PermMissingElemTests
     {
-        PermMissingElem pe;
+        private PermMissingElem pe;
         public PermMissingElemTests()
         {
             pe = new PermMissingElem();

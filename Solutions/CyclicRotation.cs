@@ -1,5 +1,4 @@
-﻿
-namespace Solutions
+﻿namespace Solutions
 {
     public class CyclicRotation
     {

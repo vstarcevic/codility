@@ -4,8 +4,8 @@ namespace Solutions.Tests
 {
     [TestClass]
     public class PermCheckTests
-    { 
-        PermCheck pe;
+    {
+        private PermCheck pe;
         public PermCheckTests()
         {
             pe = new PermCheck();

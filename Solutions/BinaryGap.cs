@@ -4,7 +4,6 @@ namespace Solutions
 {
     public class BinaryGap
     {
-
         public int solution(int N)
         {
             var binary = Convert.ToString(N, 2).ToCharArray();

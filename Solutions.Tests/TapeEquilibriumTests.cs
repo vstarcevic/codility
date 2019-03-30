@@ -1,19 +1,18 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
- 
 
 namespace Solutions.Tests
 {
     [TestClass]
     public class TapeEquilibriumTests
     {
-        TapeEquilibrium te;
+        private TapeEquilibrium te;
         public TapeEquilibriumTests()
         {
             te = new TapeEquilibrium();
         }
 
         [TestMethod]
-        public void TapeEquilibriumTest_1()
+        public void TapeEquilibriumTest_01()
         { 
             var arr = new int[] { -30, -10 };
             var result = te.solution(arr);
@@ -21,7 +20,7 @@ namespace Solutions.Tests
               
         }
         [TestMethod]
-        public void TapeEquilibriumTest_2()
+        public void TapeEquilibriumTest_02()
         {
             var arr = new int[] { 2, 3, 1, 5 };
             var result = te.solution(arr);
@@ -29,7 +28,7 @@ namespace Solutions.Tests
         }
 
         [TestMethod]
-        public void TapeEquilibriumTest_3()
+        public void TapeEquilibriumTest_03()
         {
             var arr = new int[] { 2, 3, 1, 5 };
             var result = te.solution(arr);
@@ -37,7 +36,7 @@ namespace Solutions.Tests
         }
 
         [TestMethod]
-        public void TapeEquilibriumTest_4()
+        public void TapeEquilibriumTest_04()
         {
             var arr = new int[] { -10, 12, 10, 1};
             var result = te.solution(arr);
