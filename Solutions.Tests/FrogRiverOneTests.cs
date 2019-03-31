@@ -5,7 +5,7 @@ namespace Solutions.Tests
     [TestClass]
     public class FrogRiverOneTests
     {
-        FrogRiverOne fg;
+        private FrogRiverOne fg;
 
         public FrogRiverOneTests()
         {
