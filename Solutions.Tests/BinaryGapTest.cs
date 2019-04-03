@@ -5,11 +5,7 @@ namespace Solutions.Tests
     [TestClass]
     public class BinaryGapTests
     {
-        private BinaryGap bg;
-        public BinaryGapTests()
-        {
-            bg = new BinaryGap();
-        }
+        private BinaryGap bg = new BinaryGap();
 
         [TestMethod]
         public void BinaryGapTest_01()

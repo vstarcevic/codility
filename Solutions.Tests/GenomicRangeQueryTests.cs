@@ -5,11 +5,7 @@ namespace Solutions.Tests
     [TestClass]
     public class GenomicRangeQueryTests
     {
-        private GenomicRangeQuery gr;
-        public GenomicRangeQueryTests()
-        {
-           gr = new GenomicRangeQuery();
-        }
+        private GenomicRangeQuery gr = new GenomicRangeQuery();
 
         [TestMethod]
         public void GenomicRangeQueryTest_01()

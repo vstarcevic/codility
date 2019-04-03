@@ -5,12 +5,7 @@ namespace Solutions.Tests
     [TestClass]
     public class TriangleTests
     {
-        private Triangle t;
-
-        public TriangleTests()
-        {
-            t = new Triangle();
-        }
+        private Triangle t =  new Triangle();
 
         [TestMethod]
         public void TriangleTest_01()

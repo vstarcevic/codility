@@ -5,11 +5,7 @@ namespace Solutions.Tests
     [TestClass]
     public class PermMissingElemTests
     {
-        private PermMissingElem pe;
-        public PermMissingElemTests()
-        {
-            pe = new PermMissingElem();
-        }
+        private PermMissingElem pe = new PermMissingElem();
 
         [TestMethod]
         public void PermMissingElemTest_01()

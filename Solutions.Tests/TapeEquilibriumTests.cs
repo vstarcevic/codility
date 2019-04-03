@@ -5,12 +5,8 @@ namespace Solutions.Tests
     [TestClass]
     public class TapeEquilibriumTests
     {
-        private TapeEquilibrium te;
-        public TapeEquilibriumTests()
-        {
-            te = new TapeEquilibrium();
-        }
-
+        private TapeEquilibrium te = new TapeEquilibrium();
+      
         [TestMethod]
         public void TapeEquilibriumTest_01()
         { 

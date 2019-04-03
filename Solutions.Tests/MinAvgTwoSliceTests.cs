@@ -6,12 +6,7 @@ namespace Solutions.Tests
     public class MinAvgTwoSliceTests
     {
 
-        private MinAvgTwoSlice ma;
-
-        public MinAvgTwoSliceTests()
-        {
-            ma = new MinAvgTwoSlice();
-        }
+        private MinAvgTwoSlice ma = new MinAvgTwoSlice();
 
         [TestMethod]
         public void MinAvgTwoSliceTest()

@@ -5,11 +5,7 @@ namespace Solutions.Tests
     [TestClass]
     public class PassingCarsTests
     {
-        private PassingCars pc;
-        public PassingCarsTests()
-        {
-            pc = new PassingCars();
-        }
+        private PassingCars pc = new PassingCars();
 
         [TestMethod]
         public void PassingCarsTest()

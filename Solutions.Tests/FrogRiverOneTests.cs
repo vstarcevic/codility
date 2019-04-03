@@ -5,12 +5,7 @@ namespace Solutions.Tests
     [TestClass]
     public class FrogRiverOneTests
     {
-        private FrogRiverOne fg;
-
-        public FrogRiverOneTests()
-        {
-            fg = new FrogRiverOne();
-        }
+        private FrogRiverOne fg = new FrogRiverOne();
 
         [TestMethod]
         public void FrogRiverOneTest_01()

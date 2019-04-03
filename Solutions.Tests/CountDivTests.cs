@@ -5,13 +5,8 @@ namespace Solutions.Tests
     [TestClass]
     public class CountDivTests
     {
-        private CountDiv cd;
-
-        public CountDivTests()
-        {
-            cd = new CountDiv();
-        }
-
+        private CountDiv cd = new CountDiv();
+         
         [TestMethod]
         public void CountDivTest_01()
         {

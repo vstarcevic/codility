@@ -5,12 +5,7 @@ namespace Solutions.Tests
     [TestClass]
     public class MissingIntegerTests
     {
-        private MissingInteger mi;
-
-        public MissingIntegerTests()
-        {
-            mi = new MissingInteger();
-        }
+        private MissingInteger mi = new MissingInteger();
 
         [TestMethod]
         public void MissingIntegerTest_01()

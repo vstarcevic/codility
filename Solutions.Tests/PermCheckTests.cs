@@ -5,12 +5,7 @@ namespace Solutions.Tests
     [TestClass]
     public class PermCheckTests
     {
-        private PermCheck pe;
-        public PermCheckTests()
-        {
-            pe = new PermCheck();
-        }
-
+        private PermCheck pe = new PermCheck();
         [TestMethod]
         public void PermCheckTest_01()
         { 

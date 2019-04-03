@@ -5,12 +5,7 @@ namespace Solutions.Tests
     [TestClass]
     public class DistinctTests
     {
-        private Distinct dst;
-
-        public DistinctTests()
-        {
-            dst = new Distinct();
-        }
+        private Distinct dst = new Distinct();
          
         [TestMethod]
         public void DistinctTest_01()

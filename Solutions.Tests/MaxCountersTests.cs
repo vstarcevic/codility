@@ -5,12 +5,7 @@ namespace Solutions.Tests
     [TestClass]
     public class MaxCountersTests
     {
-        private MaxCounters mx;
-
-        public MaxCountersTests()
-        {
-            mx = new MaxCounters();
-        }
+        private MaxCounters mx = new MaxCounters();
 
         [TestMethod]
         public void MaxCounterTest_01()

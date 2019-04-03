@@ -5,12 +5,7 @@ namespace Solutions.Tests
     [TestClass]
     public class MaxProductOfThreeTests
     {
-        private MaxProductOfThree mt;
-
-        public MaxProductOfThreeTests()
-        {
-            mt = new MaxProductOfThree();
-        }
+        private MaxProductOfThree mt = new MaxProductOfThree();
 
         [TestMethod]
         public void MaxProductOfThreeTest_01()
