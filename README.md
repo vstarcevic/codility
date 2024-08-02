@@ -1,2 +1,2 @@
 # Codility solutions
-This project presents codility tasks solved in C# with test cases
+This project presents codility tasks solved using C# with test cases
